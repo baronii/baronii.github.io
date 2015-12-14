@@ -23,5 +23,11 @@
   </dd>
   {% endif %}
 
+  {% if project.needs %}
+  <dd class="col-sm-10 col-sm-offset-2">
+    e nevoie de: {{ project.needs }}
+  </dd>
+  {% endif %}
+
 {% endfor %}
 </dl>
